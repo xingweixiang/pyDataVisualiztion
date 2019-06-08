@@ -1,4 +1,5 @@
-     python数据可视化
+python数据可视化
+=========
 ## 运行环境
      python 3.7.*
 ## 目录
@@ -17,3 +18,4 @@
 ### 1、导入数据
 - 从csv文件导入数据：[源码](/example/02_Code/ch02-csvread.py)
 - 从excel文件导入数据：[源码](/example/02_Code/ch02-xlsxread.py)
+- 从定宽数据文件导入数据：[源码](/example/02_Code/ch02-fixedwidth-read.py)
