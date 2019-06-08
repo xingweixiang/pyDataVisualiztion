@@ -19,3 +19,4 @@ python数据可视化
 - 从csv文件导入数据：[源码](/example/02_Code/ch02-csvread.py)
 - 从excel文件导入数据：[源码](/example/02_Code/ch02-xlsxread.py)
 - 从定宽数据文件导入数据：[源码](/example/02_Code/ch02-fixedwidth-read.py)
+- 从制表符分割的文件中导入数据：[源码](/example/02_Code/ch02-fixedwidth-read.py)
