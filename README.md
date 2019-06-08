@@ -21,3 +21,4 @@ python数据可视化
 - 从定宽数据文件导入数据：[源码](/example/02_Code/ch02-fixedwidth-read.py)
 - 从制表符分割的文件中导入数据：[源码](/example/02_Code/ch02-tabread.py)
 - "脏数据"清理：[源码](/example/02_Code/ch02-tabread-split.py)
+- 从JSON数据源导入数据：[源码](/example/02_Code/ch02-jsonread-github.py)
