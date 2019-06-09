@@ -28,5 +28,8 @@ python数据可视化
 ### 2、导出数据
 - 导出数据到JSON、CSV、Excel：[源码](/example/02_Code/ch02-export.py)
 ### 3、清理异常值
-- 在统计学上，中位数绝对偏差(MAD)是用来描述单变量样本在定量数据中可变性的一种标准。常用来度量统计分布，对异常值有抵抗能力。：[源码](/example/02_Code/ch02-clean-mad.py)<br>
-![MAD](/example/02_Code/img/clean-mad.jpg)
+- 在统计学上，中位数绝对偏差(MAD)是用来描述单变量样本在定量数据中可变性的一种标准。常用来度量统计分布，对异常值有抵抗能力。[源码](/example/02_Code/ch02-clean-mad.py)<br>
+![MAD](/example/02_Code/img/clean-mad.jpg)<br>
+第一幅图除了一个最大的异常值之外什么都没有，第二幅图中剔除掉了异常值，显示了多样化的数据。
+- 识别异常值的方法还有创建散点图，能轻易看到偏离簇中心的值。也可以绘制一个箱线图，就能显示出中值、上四分位数和下四分位数，以及远离箱体的异常值点。[源码](/example/02_Code/ch02-clean-boxplot.py)<br>
+![箱线图](/example/02_Code/img/clean-boxplot.jpg)
