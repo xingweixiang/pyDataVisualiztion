@@ -11,6 +11,7 @@ python数据可视化
 		* [1、导入数据](#1导入数据)
 		* [2、导出数据](#2导出数据)
 		* [3、清理异常值](#3清理异常值)
+		* [4、数据噪声平滑处理](#4数据噪声平滑处理)
 ### 一、准备工作
 ### 1、安装
 - 安装matplotlib、Numpy、Scipy、图像库(PIL)等。
@@ -39,3 +40,10 @@ python数据可视化
 ![箱线图](/example/02_Code/img/clean-boxplot.jpg)<br>
 第二幅图以散点图的形式显示了相似的集合。数据的X轴都是25，看起来不直观<br>
 第三幅图中，在X轴上生成的值分布在0-50的范围内，更能看出值与值间不同，也能够在Y轴上看出哪些值是异常值。
+### 4、数据噪声平滑处理
+- 对样本求平均值。[源码](/example/02_Code/ch02-noise-moving-average.py)<br>
+![样本平均值](/example/02_Code/img/moving-average.jpg)
+- ScpPy基于信号（数据原点）窗口的卷积（函数的总和）。[源码](/example/02_Code/ch02-noise-scipy-smooth-1d.py)<br>
+![ScpPy](/example/02_Code/img/scipy-smooth.jpg)
+- 中值滤波：用相邻信号项的中值替换当前项。[源码](/example/02_Code/ch02-noise-median-filter.py)<br>
+![中值滤波](/example/02_Code/img/median-filter.jpg)
