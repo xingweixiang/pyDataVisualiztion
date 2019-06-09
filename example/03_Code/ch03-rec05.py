@@ -14,11 +14,8 @@ xlim(-3, 3)
 ylim(-1, 4)
 # 坐标上刻度
 xticks([-np.pi, -np.pi / 2, 0, np.pi / 2, np.pi],
-
        [r'$-\pi$', r'$-\pi/2$', r'$0$', r'$+\pi/2$', r'$+\pi$'])
-
 yticks([-1, 0, 1],
-
        [r'$-1$', r'$0$', r'$+1$'])
 grid()
 savefig('./img/rec05.jpg')

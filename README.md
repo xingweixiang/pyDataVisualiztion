@@ -14,6 +14,7 @@ python数据可视化
 		* [4、数据噪声平滑处理](#4数据噪声平滑处理)
 	* [三、绘制并定制化图表](#三绘制并定制化图表)
 		* [1、常用图](#1常用图)
+		* [2、更多图表和定制化](#2更多图表定制化)
 ### 一、准备工作
 ### 1、安装
 - 安装matplotlib、Numpy、Scipy、图像库(PIL)等。
@@ -125,3 +126,14 @@ show()
 ![误差条形图](/example/03_Code/img/rec09.jpg)
 - 带填充区域的图表。[源码](/example/03_Code/ch03-rec10.py)<br>
 ![带填充区域的图表](/example/03_Code/img/rec10.jpg)
+### 2、更多图表和定制化
+- 向图表添加数据表。[源码](/example/03_Code/ch03-rec11.py)<br>
+![向图表添加数据表](/example/03_Code/img/rec11.jpg)
+- 向图表添加数据表。[源码](/example/03_Code/ch03-rec12.py)<br>
+![向图表添加数据表](/example/03_Code/img/rec12.jpg)
+- 使用subplots。[源码](/example/03_Code/ch03-rec13.py)<br>
+![使用subplots](/example/03_Code/img/rec13.jpg)
+- 创建等高线图。[源码](/example/03_Code/ch03-rec14.py)<br>
+![创建等高线图](/example/03_Code/img/rec14.jpg)
+- 填充图表底层区域。[源码](/example/03_Code/ch03-rec15.py)<br>
+![填充图表底层区域](/example/03_Code/img/rec15.jpg)
