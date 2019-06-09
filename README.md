@@ -76,3 +76,36 @@ savefig('./img/plotting.jpg')#保存成图片
 show()
 ```
 ![常用图](/example/03_Code/img/plotting.jpg)
+- 直方图
+```
+dataset = [113, 115, 119, 121, 124, 
+           124, 125, 126, 126, 126,
+           127, 127, 128, 129, 130,
+           130, 131, 132, 133, 136]
+subplot(122)
+hist(dataset)#直方图
+show()
+```
+![直方图](/example/03_Code/img/historgram.jpg)
+- 正弦、余弦图
+```
+x = np.linspace(-np.pi, np.pi, 256, endpoint=True)
+y = np.cos(x)
+y1 = np.sin(x)
+pl.plot(x, y)
+pl.plot(x, y1)
+# 图表名称
+pl.title("Functions $\sin$ and $\cos$")
+# x,y轴坐标范围
+pl.xlim(-3, 3)
+pl.ylim(-1, 1)
+# 坐标上刻度
+pl.xticks([-np.pi, -np.pi / 2, 0, np.pi / 2, np.pi],
+       [r'$-\pi$', r'$-\pi/2$', r'$0$', r'$+\pi/2$', r'$+\pi$'])
+pl.yticks([-1, 0, 1],
+       [r'$-1$', r'$0$', r'$+1$'])
+# 网格
+pl.grid()
+show()
+```
+![正弦、余弦图](/example/03_Code/img/sin-cos.jpg)
