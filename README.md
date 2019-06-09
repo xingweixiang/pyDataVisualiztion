@@ -10,6 +10,7 @@ python数据可视化
 	* [二、数据处理](#二数据处理)
 		* [1、导入数据](#1导入数据)
 		* [2、导出数据](#2导出数据)
+		* [3、清理异常值](#3清理异常值)
 ### 一、准备工作
 ### 1、安装
 - 安装matplotlib、Numpy、Scipy、图像库(PIL)等。
@@ -26,3 +27,6 @@ python数据可视化
 - 从数据库导入数据：[源码](/example/02_Code/ch02-sqlite-import.py)
 ### 2、导出数据
 - 导出数据到JSON、CSV、Excel：[源码](/example/02_Code/ch02-export.py)
+### 3、清理异常值
+- 在统计学上，中位数绝对偏差(MAD)是用来描述单变量样本在定量数据中可变性的一种标准。常用来度量统计分布，对异常值有抵抗能力。：[源码](/example/02_Code/ch02-clean-mad.py)<br>
+![MAD](/example/02_Code/img/clean-mad.jpg)
