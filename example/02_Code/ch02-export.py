@@ -87,7 +87,7 @@ def write_xlsx(data):
         # We have hard limit here of 65535 rows
         # that we are able to save in spreadsheet.
         if row > 65535:
-            print >> sys.stderr, "Hit limit of # of rows in one sheet (65535)."
+            print ("Hit limit of # of rows in one sheet (65535).")
             break
     # XLS is special case where we have to
     # save the file and just return 0

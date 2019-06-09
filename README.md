@@ -26,6 +26,7 @@ python数据可视化
 - 从JSON数据源导入数据：[源码](/example/02_Code/ch02-jsonread-github.py)
 - 从数据库导入数据：[源码](/example/02_Code/ch02-sqlite-import.py)
 - 读取大块数据文件：[源码](/example/02_Code/ch02-chunk-read.py)
+- 读取流数据源：[源码](/example/02_Code/ch02-stream-read-1.py)
 ### 2、导出数据
 - 导出数据到JSON、CSV、Excel：[源码](/example/02_Code/ch02-export.py)
 ### 3、清理异常值
