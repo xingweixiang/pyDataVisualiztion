@@ -12,6 +12,8 @@ python数据可视化
 		* [2、导出数据](#2导出数据)
 		* [3、清理异常值](#3清理异常值)
 		* [4、数据噪声平滑处理](#4数据噪声平滑处理)
+	* [三、绘制并定制化图表](#三绘制并定制化图表)
+		* [1、柱状图、线形图、堆积柱状图](#1柱状图、线形图、堆积柱状图)
 ### 一、准备工作
 ### 1、安装
 - 安装matplotlib、Numpy、Scipy、图像库(PIL)等。
@@ -47,3 +49,29 @@ python数据可视化
 ![ScpPy](/example/02_Code/img/scipy-smooth.jpg)
 - 中值滤波：用相邻信号项的中值替换当前项。[源码](/example/02_Code/ch02-noise-median-filter.py)<br>
 ![中值滤波](/example/02_Code/img/median-filter.jpg)
+### 三、绘制并定制化图表
+### 1、柱状图、线形图、堆积柱状图
+```
+from matplotlib.pyplot import *
+x = [1,2,3,4]
+y = [5,4,3,2]
+figure()#建新图表
+subplot(231)#把图表分割成2X3的网格,subplot(2,3,1)，第一个参数是行数，第二个是列数，第三个表示图形的标号
+plot(x, y)#线
+subplot(232)
+bar(x, y)#柱状图
+subplot(233)
+barh(x, y)#水平柱状图
+#叠加柱状图
+subplot(234)
+bar(x, y)
+y1 = [7,8,5,3]
+bar(x, y1, bottom=y, color = 'r')
+subplot(235)
+boxplot(x)#箱线图
+subplot(236)
+scatter(x,y)#散点图
+savefig('./img/plotting.jpg')#保存成图片
+show()
+```
+![箱线图](/example/03_Code/img/plotting.jpg)
