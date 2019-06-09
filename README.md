@@ -15,6 +15,8 @@ python数据可视化
 	* [三、绘制并定制化图表](#三绘制并定制化图表)
 		* [1、常用图](#1常用图)
 		* [2、更多图表和定制化](#2更多图表和定制化)
+    * [四、3D可视化图表](#四3D可视化图表)
+        * [1、创建3D图表](#1创建3D图表)
 ### 一、准备工作
 ### 1、安装
 - 安装matplotlib、Numpy、Scipy、图像库(PIL)等。
@@ -137,3 +139,13 @@ show()
 ![创建等高线图](/example/03_Code/img/rec14.jpg)
 - 填充图表底层区域。[源码](/example/03_Code/ch03-rec15.py)<br>
 ![填充图表底层区域](/example/03_Code/img/rec15.jpg)
+### 四、3D可视化图表
+### 1、创建3D图表
+- 3D柱状图。[源码](/example/04_Code/ch04-rec01.py)<br>
+![3D柱状图](/example/04_Code/img/rec01.jpg)
+- 曲面图。[源码](/example/04_Code/ch04-rec02.py)<br>
+![曲面图](/example/04_Code/img/rec02.jpg)
+- 3D直方图。[源码](/example/04_Code/ch04-rec03.py)<br>
+![3D直方图](/example/04_Code/img/rec03.jpg)
+- 三翼面图。[源码](/example/04_Code/ch04-rec04.py)<br>
+![三翼面图](/example/04_Code/img/rec04.jpg)
