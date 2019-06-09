@@ -9,6 +9,7 @@ python数据可视化
 		* [2、设置matplotlib参数](#2设置matplotlib参数)
 	* [二、数据处理](#二数据处理)
 		* [1、导入数据](#1导入数据)
+		* [2、导出数据](#2导出数据)
 ### 一、准备工作
 ### 1、安装
 - 安装matplotlib、Numpy、Scipy、图像库(PIL)等。
@@ -23,3 +24,5 @@ python数据可视化
 - "脏数据"清理：[源码](/example/02_Code/ch02-tabread-split.py)
 - 从JSON数据源导入数据：[源码](/example/02_Code/ch02-jsonread-github.py)
 - 从数据库导入数据：[源码](/example/02_Code/ch02-sqlite-import.py)
+### 2、导出数据
+- 导出数据到JSON、CSV、Excel：[源码](/example/02_Code/ch02-csvread.py)
