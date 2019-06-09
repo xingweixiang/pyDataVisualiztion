@@ -25,6 +25,7 @@ python数据可视化
 - "脏数据"清理：[源码](/example/02_Code/ch02-tabread-split.py)
 - 从JSON数据源导入数据：[源码](/example/02_Code/ch02-jsonread-github.py)
 - 从数据库导入数据：[源码](/example/02_Code/ch02-sqlite-import.py)
+- 读取大块数据文件：[源码](/example/02_Code/ch02-chunk-read.py)
 ### 2、导出数据
 - 导出数据到JSON、CSV、Excel：[源码](/example/02_Code/ch02-export.py)
 ### 3、清理异常值
