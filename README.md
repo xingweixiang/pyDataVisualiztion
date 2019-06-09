@@ -82,6 +82,8 @@ dataset = [113, 115, 119, 121, 124,
            124, 125, 126, 126, 126,
            127, 127, 128, 129, 130,
            130, 131, 132, 133, 136]
+subplot(121)
+boxplot(dataset, vert=False)#箱线图
 subplot(122)
 hist(dataset)#直方图
 show()
@@ -109,3 +111,6 @@ pl.grid()
 show()
 ```
 ![正弦、余弦图](/example/03_Code/img/sin-cos.jpg)
+- 设置图表的线型、属性和格式化字符串。[源码](/example/03_Code/ch03-rec05.py)<br>
+![设置图表的线型、属性和格式化字符串](/example/03_Code/img/rec05.jpg)
+
