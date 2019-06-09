@@ -50,7 +50,8 @@ python数据可视化
 - 中值滤波：用相邻信号项的中值替换当前项。[源码](/example/02_Code/ch02-noise-median-filter.py)<br>
 ![中值滤波](/example/02_Code/img/median-filter.jpg)
 ### 三、绘制并定制化图表
-### 1、柱状图线形图堆积柱状图
+### 1、常用图
+- 线、柱状图、水平柱状图、叠加柱状图、箱线图、散点图
 ```
 from matplotlib.pyplot import *
 x = [1,2,3,4]
@@ -74,4 +75,4 @@ scatter(x,y)#散点图
 savefig('./img/plotting.jpg')#保存成图片
 show()
 ```
-![箱线图](/example/03_Code/img/plotting.jpg)
+![常用图](/example/03_Code/img/plotting.jpg)
