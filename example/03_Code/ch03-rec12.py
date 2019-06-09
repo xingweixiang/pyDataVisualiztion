@@ -17,5 +17,6 @@ my_table = plt.table(cellText=table_vals,
                      rowColours=row_colors,
                      loc='upper right')
 plt.plot(y)
-plt, show()
 plt.savefig('./img/rec12.jpg')
+plt, show()
+

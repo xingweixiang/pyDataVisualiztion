@@ -11,5 +11,6 @@ plt.xlabel('x')
 plt.ylabel('y')
 plt.title('measurements')
 plt.legend(loc='upper left')  # 这种图例用法更直接
-plt.show()
 plt.savefig('./img/rec09.jpg')
+plt.show()
+

@@ -15,5 +15,6 @@ for ax in all_axex:
     for ticklabel in ax.get_xticklabels() + ax.get_yticklabels():
         ticklabel.set_fontsize(10)
 plt.suptitle("Demo")
-plt.show()
 plt.savefig('./img/rec13.jpg')
+plt.show()
+

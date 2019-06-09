@@ -11,6 +11,7 @@ ax.plot(x, y1, x, y2, color='b')
 ax.fill_between(x, y1, y2, where=y2 > y1, facecolor='g', interpolate=True)
 ax.fill_between(x, y1, y2, where=y2 < y1, facecolor='darkblue', interpolate=True)
 ax.set_title('filled between')
-show()
 plt.savefig('./img/rec10.jpg')
+show()
+
 

@@ -16,6 +16,7 @@ ax.spines['left'].set_position(('data', 0))
 ax.xaxis.set_ticks_position('bottom')
 ax.yaxis.set_ticks_position('left')
 plt.grid()
-plt.show()
 plt.savefig('./img/rec08.jpg')
+plt.show()
+
 
