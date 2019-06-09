@@ -111,6 +111,17 @@ pl.grid()
 show()
 ```
 ![正弦、余弦图](/example/03_Code/img/sin-cos.jpg)
+- 饼图。[源码](/example/03_Code/ch03-rec04-pie.py)<br>
+![饼图](/example/03_Code/img/pie.jpg)
 - 设置图表的线型、属性和格式化字符串。[源码](/example/03_Code/ch03-rec05.py)<br>
 ![设置图表的线型、属性和格式化字符串](/example/03_Code/img/rec05.jpg)
-
+- 设置刻度、时间刻度标签、网格。[源码](/example/03_Code/ch03-rec06.py)<br>
+![设置刻度、时间刻度标签、网格](/example/03_Code/img/rec06.jpg)
+- 添加图例和注释。[源码](/example/03_Code/ch03-rec07.py)<br>
+![添加图例和注释](/example/03_Code/img/rec07.jpg)
+- 设置坐标轴。[源码](/example/03_Code/ch03-rec08.py)<br>
+![设置坐标轴](/example/03_Code/img/rec08.jpg)
+- 误差条形图。[源码](/example/03_Code/ch03-rec09.py)<br>
+![误差条形图](/example/03_Code/img/rec09.jpg)
+- 带填充区域的图表。[源码](/example/03_Code/ch03-rec10.py)<br>
+![带填充区域的图表](/example/03_Code/img/rec10.jpg)
