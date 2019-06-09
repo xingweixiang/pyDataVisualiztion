@@ -25,4 +25,4 @@ python数据可视化
 - 从JSON数据源导入数据：[源码](/example/02_Code/ch02-jsonread-github.py)
 - 从数据库导入数据：[源码](/example/02_Code/ch02-sqlite-import.py)
 ### 2、导出数据
-- 导出数据到JSON、CSV、Excel：[源码](/example/02_Code/ch02-csvread.py)
+- 导出数据到JSON、CSV、Excel：[源码](/example/02_Code/ch02-export.py)
